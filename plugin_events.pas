@@ -59,9 +59,6 @@ function hasConfigPerm(groupID,ActiveQQ:int64):boolean;
 Var
 	TActiveQQ:CQ_Type_GroupMember;
 Begin
-
-	CQ_i_addLog(CQLOG_DEBUG,'1','1');
-
 	if (CQ_i_getGroupMemberInfo(groupID,ActiveQQ,TActiveQQ,true)=0) and
 		(TActiveQQ.Permission >= 2) then exit(true) else exit(false);
 End;
