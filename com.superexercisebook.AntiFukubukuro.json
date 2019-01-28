@@ -2,8 +2,8 @@
     "ret":1,					// 返回码，固定为1
     "apiver":9,					// Api版本，本SDK为9
     "name":"QQ福袋撤回",		// 应用名称
-    "version":"1.1.0",			// 应用版本
-    "version_id":2,				// 应用顺序版本（每次发布时至少+1）
+    "version":"1.1.1",			// 应用版本
+    "version_id":3,				// 应用顺序版本（每次发布时至少+1）
     "author":"Eric",			// 应用作者
     "description":"我受不了这委屈.jpg",
     "event":[					// 事件列表，同一事件类型可重复定义（发布前请删除无用事件）
@@ -107,14 +107,14 @@
         }
     ],
     "menu":[		// 设置菜单（发布前请删除无用菜单，如果无需设置菜单请全部删除）
-        {
-            "name":"查看AuthCode",			//菜单名称
-            "function":"_menuA"		//菜单对应函数
-        },
-        {
-            "name":"查看当前系统时间",
-            "function":"_menuB"
-        }
+        //{
+        //    "name":"查看AuthCode",			//菜单名称
+        //    "function":"_menuA"		//菜单对应函数
+        //},
+        //{
+        //    "name":"查看当前系统时间",
+        //    "function":"_menuB"
+        //}
     ],
     "status":[		// 悬浮窗状态（见 com.example.status 样例）
 		
