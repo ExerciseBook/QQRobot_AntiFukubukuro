@@ -1,0 +1,10 @@
+{
+
+   "files.exclude": {
+       "**/**.a": true,
+       "**/**.o": true,
+       "**/**.ppu": true,
+       "**/**.exe": true,
+       "**/**.dll": true,
+   }
+}
