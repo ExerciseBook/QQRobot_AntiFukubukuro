@@ -3,6 +3,10 @@
 # QQ福袋撤回 for CoolQ
 ![title](image/title.jpg)
 
+## 提示
+- QQ现已经可以关闭福袋提醒，因此本库归档
+- 设置页面地址： <https://qzact.qzone.qq.com/qzone/qzact/act/2019-fudai/pages/setting/index.html>
+	
 ## 概述
 - 这个QQ福袋太烦人了。我受不了这委屈.jpg
 
